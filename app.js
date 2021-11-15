@@ -1,7 +1,8 @@
 const a = require('lodash')
-const ar =[1,[2,[3,[4]]]]
+const ar =[1,[2,[3,[4]]],5]
 const srr = a.flattenDeep(ar)
 
-console.log(srr)
-require('./os')
+console.log(srr,"ping")
+//require('./os')
 require('./ht')
+
